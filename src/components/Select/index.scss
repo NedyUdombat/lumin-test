@@ -1,0 +1,18 @@
+.select {
+  width: 100%;
+  position: relative;
+  padding: 0 32px 0 20px;
+  line-height: 100%;
+  color: #333;
+  height: 57px;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #cdd1ce;
+  border-radius: 0;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #000;
+  }
+}

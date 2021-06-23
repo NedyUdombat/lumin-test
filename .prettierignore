@@ -1,0 +1,6 @@
+.prettierignore
+.prettierrc
+/node_modules/**
+/public/**
+/coverage/**
+.github

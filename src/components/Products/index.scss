@@ -1,0 +1,21 @@
+.products-section {
+  background: #e2e6e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .content {
+    max-width: 1300px;
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .products-section {
+    .content {
+      padding: 0 16px;
+    }
+  }
+}
